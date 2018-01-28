@@ -14,7 +14,7 @@ Well I am a fan of Elvis (The king!) and Elvis operator `?:` (Also known as  nul
 Sadly Java doesn’t support Elvis operator. It was actually proposed to be included in Java 7 but the idea was rejected (wtf is wrong with those Oracle noobs). If you want to
 read the discussion about it for yourself check out [this](http://mail.openjdk.java.net/pipermail/coin-dev/2009-March/000047.html).
 
-So The ?: binary "Elvis" operator results in the value of the left-hand-side if it is not null, avoiding evaluation of the 
+So The `?:` binary "Elvis" operator results in the value of the left-hand-side if it is not null, avoiding evaluation of the 
 right-hand-side. But If the left-hand-side is null, the right-hand-side is evaluated and this is the result returned instead.
 
 So if you were to write the following in Java:
@@ -35,7 +35,7 @@ private String getStreetName() {
 ```
 
 Just for the history, Elvis operator was named like that because `?:` looks like an emoji with a pompadour haircut. And who could that be if not Elvis 
-<img src="https://d3npzzrehyahmo.cloudfront.net/images/eb/7a/eb7aab9824560002b0d2d945e508dd9d_24017b2253e_t.png" alt="Elvis" style="width: 50%; height: 50%"/>​
+<img src="https://d3npzzrehyahmo.cloudfront.net/images/eb/7a/eb7aab9824560002b0d2d945e508dd9d_24017b2253e_t.png" alt="Elvis" style="width: 80%; height: 80%"/>​
 
 # Usage 
 
