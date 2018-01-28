@@ -13,8 +13,8 @@ public class ElvisTest {
     @Test
     public void primitive_boolean_isPresent() throws Exception {
         BigBox box = new BigBox(new LilBox());
-        final boolean shouldBeFalse = Elvis.of(box).next(BigBox::getLilBox).next(LilBox::isBoolean).isPresent();
-        assertEquals(shouldBeFalse, true);
+        final boolean shouldBeTrue = Elvis.of(box).next(BigBox::getLilBox).next(LilBox::isBoolean).isPresent();
+        assertEquals(shouldBeTrue, true);
     }
 
     @Test
@@ -43,5 +43,12 @@ public class ElvisTest {
         BigBox box = new BigBox();
         final boolean shouldBeFalse = Elvis.of(box).next(BigBox::getLilBox).next(LilBox::getIamDouble).isPresent();
         assertEquals(shouldBeFalse, false);
+    }
+
+    @Test
+    public void primitive_boolean_isTrue() throws Exception {
+        BigBox box = new BigBox(new LilBox(true, 0.26));
+        final boolean shouldBeTrue = Elvis.of(box).next(BigBox::getLilBox).next(LilBox::isBoolean).getBoolean();
+        assertEquals(shouldBeTrue, true);
     }
 }
