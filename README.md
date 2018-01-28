@@ -41,7 +41,7 @@ Just for the history, Elvis operator was named like that because `?:` looks like
 
 It's worth mentioning that this lib just as `Optional`, can also offer safe navigation in between chain method calls plus a few more features.
 
-Using Elvis (My Library) the above snippets could be replaced with:
+Using Elvis (This library) the above snippets could be replaced with:
 
 ```java
 private String getStreetName() {
