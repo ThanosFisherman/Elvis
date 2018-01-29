@@ -48,8 +48,9 @@ private String getStreetName() {
 }
 ```
 
-`Elvis.of()` is equivalent to `Optional.ofNullable()` but seriously come on! This is the most frequently used method and should be short and succinct to use.
-I mean the whole idea of Optional is to deal with nulls it should have been pretty obvious that `Optional.of()` could also accept null values and not the other way around.
+`Elvis.of()` is equivalent to `Optional.ofNullable()` because come on! This is the most frequently used method and should be short and succinct to use. 
+
+I mean the whole idea of Optional is to deal with nulls. It should have been pretty obvious that `Optional.of()` could also accept null values and not the other way around.
 
 so I did a few renamings and here's the coresponding matches in Elvis vs Optional
 
