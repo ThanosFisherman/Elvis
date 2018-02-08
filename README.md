@@ -68,7 +68,7 @@ I have also included some methods that deal with primitive values.
 
 `getLong()` will return a primitive `long`
 
-`getDouble()` will return a primitive `double'
+`getDouble()` will return a primitive `double`
 
 Furthermore the `Objects` class from Java 8 along with some Functional Interfaces (Such as `Consumer`, `Function` etc) are also backported in Elvis for a possible use in Android which does not support those classes in low minSdkVersion numbers.
 
