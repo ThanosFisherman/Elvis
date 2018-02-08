@@ -66,7 +66,7 @@ I have also included some methods that deal with primitive values.
 
 `getInt()` will return a primitive `int`
 
-`getLong()` will return a primitive `long'
+`getLong()` will return a primitive `long`
 
 `getDouble()` will return a primitive `double'
 
