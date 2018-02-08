@@ -60,4 +60,17 @@ so I did a few renamings and here's the coresponding matches in Elvis vs Optiona
 
 `Elvis.next()` == `Optional.map()`
 
-## To be continued...
+I have also included some methods that deal with primitive values.
+
+`getBoolean()` will return a primitive `boolean`
+
+`getInt()` will return a primitive `int`
+
+`getLong()` will return a primitive `long'
+
+`getDouble()` will return a primitive `double'
+
+Furthermore the `Objects` class from Java 8 along with some Functional Interfaces (Such as `Consumer`, `Function` etc) are also backported in Elvis for a possible use in Android which does not support those classes in low minSdkVersion numbers.
+
+# Examples
+Find below some usage examples for a better understanding. (to be continued...)
