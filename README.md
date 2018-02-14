@@ -38,7 +38,7 @@ Just for the history, Elvis operator was named like that because `?:` looks like
 
 # Usage 
 
-It's worth mentioning that this lib just as `Optional`, can also offer safe navigation in between chain method calls plus a few more features.
+It's worth mentioning that this lib just as `Optional`, can also offer safe navigation in between chain method calls plus a few more features we are gonna get into in a while.
 
 Using Elvis (This library) the above snippets could be replaced with:
 
@@ -70,7 +70,22 @@ I have also included some methods that deal with primitive values.
 
 `getDouble()` will return a primitive `double`
 
-Furthermore the `Objects` class from Java 8 along with some Functional Interfaces (Such as `Consumer`, `Function` etc) are also backported in Elvis for a possible use in Android which does not support those classes in low minSdkVersion numbers.
+Furthermore the `Objects` class from Java 8 along with some Functional Interfaces (Such as `Consumer`, `Function` etc) are also backported in Elvis lib for a possible use in Android which does not support those classes in low minSdkVersion numbers.
 
 # Examples
 Find below some usage examples for a better understanding. (to be continued...)
+
+```java
+private String getStreetName() {
+	return Elvis.of(streetName).orElse("Unknown Street")
+}
+```
+As mentioned earlier the above method will return the content of `streetName` if it is not `null` But if it is null, "Unknown Street" will be returned instead.
+
+```java
+private String getStreetName() {
+	Computer computer = new Computer()
+	return Elvis.of(computer).next(Computer::getSoundcard).next(Soundcard::getUSB).next(USB::getVersion).orElse("UNKNOWN");
+}
+```
+(to be continued...)
