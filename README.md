@@ -34,7 +34,7 @@ private String getStreetName() {
 ```
 
 Just for the history, Elvis operator was named like that because `?:` looks like an emoji with a pompadour haircut. And who else could that be if not Elvis 
-<img src="https://d3npzzrehyahmo.cloudfront.net/images/eb/7a/eb7aab9824560002b0d2d945e508dd9d_24017b2253e_t.png" alt="Elvis" width="30" height="30"/>
+<img src="https://d172h4vc197skd.cloudfront.net/images/eb/7a/eb7aab9824560002b0d2d945e508dd9d_24017b2253e_t.png" alt="Elvis" width="30" height="30"/>
 
 # Usage 
 
