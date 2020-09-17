@@ -5,7 +5,7 @@ Elvis Operator is an alternative to Java's Optional Operator that works for me.
 [![Download](https://api.bintray.com/packages/thanosfisherman/maven/elvis/images/download.svg)](https://bintray.com/thanosfisherman/maven/elvis/_latestVersion)
 
 ```groovy
-implementation 'com.thanosfisherman.elvis:elvis:2.0'
+implementation 'com.thanosfisherman.elvis:elvis:3.0'
 ```
 
 # Why Elvis?
