@@ -6,3 +6,6 @@
 /captures
 .externalNativeBuild
 /.idea/
+/elvis/build
+/buildSrc/build
+/elvis/out/
